@@ -1,0 +1,66 @@
+data_root: data/trellis500k_train
+manifest_path: data/splits/train_manifest.jsonl
+val_manifest_path: null
+val_ratio: 0.0
+
+config_path: block3d/configs/block3d.yaml
+gpt_ckpt_path: model_weights/shape_gpt.safetensors
+shape_ckpt_path: model_weights/shape_tokenizer.safetensors
+resume_trainer_state: null
+train_from_scratch: false
+
+output_dir: runs/block3d
+batch_size: 10
+num_workers: 4
+max_steps: 35000
+epochs: null
+
+learning_rate: 1.0e-4
+weight_decay: 0.0
+grad_clip_norm: 1.0
+grad_accum_steps: 1
+warmup_steps: 100
+min_lr_ratio: 1.0
+ema_decay: 0.0
+
+save_model_only_interval: 5000
+save_full_state_interval: 0
+save_final_trainer_state: false
+log_interval: 10
+val_interval: 0
+val_max_batches: null
+
+sample_eval_interval: 0
+sample_eval_max_samples: 0
+sample_eval_top_p: null
+sample_eval_guidance_scale: 3.0
+sample_eval_num_diffusion_steps: 4
+sample_eval_sampling_strategy: block3d
+
+geometry_eval_interval: 0
+geometry_eval_fixed_max_samples: 0
+geometry_eval_max_samples: 0
+geometry_eval_surface_samples: 8192
+geometry_eval_save_generated_meshes: false
+
+point_samples: 8192
+cache_dir: null
+max_train_samples: null
+max_val_samples: null
+train_t_min: 0.45
+train_t_max: 0.95
+training_strategy: block3d
+
+amp_dtype: bfloat16
+model_dtype: bfloat16
+disable_grad_scaler: false
+activation_checkpointing: false
+offload_shape_model_to_cpu: false
+
+seed: 42
+device: cuda
+ddp_backend: nccl
+ddp_find_unused_parameters: true
+tensorboard_dir: null
+disable_tensorboard: false
+tensorboard_flush_secs: 30

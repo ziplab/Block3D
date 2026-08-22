@@ -1,0 +1,106 @@
+BLOCK3D DERIVATIVE WORK NOTICE
+
+Licensed Derivative:
+Block3D and the training, inference, and evaluation source code distributed
+with it.
+
+Upstream Licensed Artifact:
+Cube3D-v0.1 and related inference code.
+
+Block3D is a derivative work based on Cube3D-v0.1. The Block3D Authors modified
+the upstream source code for the Block3D research project.
+
+Copyright (c) 2026 Block3D Authors for the Block3D modifications.
+
+The original Cube3D Research-Only RAIL-MS License is reproduced below and
+remains applicable to the upstream code and the Block3D derivative. This notice
+does not remove or replace any upstream copyright, patent, trademark,
+attribution, or license notice. Block3D and its derivatives may be used and
+distributed only for academic or research purposes and subject to all
+restrictions below.
+
+All source files in this distribution that derive from Cube3D-v0.1 have been
+modified from the upstream versions for Block3D unless stated otherwise.
+
+===============================================================================
+
+CUBE3D RESEARCH-ONLY RAIL-MS LICENSE
+
+Licensed Artifacts:
+Cube3d-v0.1 and related inference code 
+
+I. SCOPE
+This Research-Only RAIL License is generally applicable to the Artifacts identified above.
+For valuable consideration, You and Licensor agree as follows:
+1. Definitions
+(a) “Artifact” means a software application (in either binary or source code format), Model, or Source Code, in accordance with what are specified above as the “Licensed Artifacts.”
+(b) “Contribution” means any work, including any modifications or additions to an Artifact, that is intentionally submitted to Licensor for inclusion or incorporation in the Artifact directly or indirectly by the rights owner. For the purposes of this definition, “submitted” means any form of electronic, verbal, or written communication sent to the Licensor or its representatives, including but not limited to communication on electronic mailing lists, source code control systems, and issue tracking systems that are managed by, or on behalf of, the Licensor for the purpose of discussing, sharing and improving the Artifact, but excluding communication that is conspicuously marked or otherwise designated in writing by the contributor as “Not a Contribution.”
+(c) “Contributor” means Licensor or any other individual or legal entity that creates or owns a Contribution that is added to or incorporated into an Artifact or Derivative.
+(d) “Data” means a collection of information or content extracted from the dataset used with a given Model, including to train, pretrain, or otherwise evaluate the Model. 
+(e) “Derivative” means a work derived from or based upon an Artifact, and includes all modified versions of such Artifact.
+(f) “Distribution” means any transmission, reproduction, publication or other sharing of an Artifact or Derivative to a third party, including providing a hosted service incorporating the Artifact, which is made available by electronic or other remote means—e.g., API-based or web access.
+(g) “License” means the terms and conditions for use, reproduction, and Distribution as defined in this document.
+(h) “Licensor” means the rights owner (by virtue of creation or documented transfer of ownership) or entity authorized by the rights owner (e.g., exclusive licensee) that is granting the rights in this License.
+(i) “Model” means any machine-learning based assembly or assemblies (including checkpoints), consisting of learnt weights, parameters (including optimizer states), corresponding to the model architecture as embodied in the Source Code.
+(j) “Output” means the results of operating a Model as embodied in informational content resulting therefrom.
+(k) “Permitted Purpose” means for academic or research purposes only.
+(l) “Source Code” means any collection of text written using human-readable programming language, including the code and scripts used to define, run, load, benchmark or evaluate a Model or any component thereof, or used to prepare data for training or evaluation. Source Code includes any accompanying documentation, tutorials and examples. For clarity, the term “Source Code” as used in this License includes any and all Derivatives of such Source Code.
+(m) “Third Party” means any individual or legal entity that is not under common control with Licensor or You.
+(n) “Use,” with respect to an Artifact, means accessing, using, copying, modifying, distributing, and making available the Artifact; in connection with a Model as Artifact, Use also includes creating content, fine-tuning, updating, running, training, evaluating and re-parametrizing such Model.
+(o) “You” (or “Your”) means an individual or legal entity receiving and exercising permissions granted by this License or making use of the Artifact for the Permitted Purpose and in any permitted field of  use, including usage of the Artifact in an end-use application.
+
+II. INTELLECTUAL PROPERTY RIGHTS
+1. Both copyright and patent grants may apply to the Artifacts. The Artifacts are subject to additional terms as described in Section III below, which govern the Use of the Artifacts in the event that Section II is held unenforceable or inapplicable.
+2. Grant of Copyright License. Conditioned upon compliance with Section III below and subject to the terms and conditions of this License, each Contributor hereby grants to You, only in connection with the Permitted Purpose, a worldwide, non-exclusive, royalty-free copyright license to reproduce, publicly display, publicly perform, distribute, and make derivatives of the Artifacts.
+3. Grant of Patent License. Conditioned upon compliance with Section III below and subject to the terms and conditions of this License, and only where and as applicable, each Contributor hereby grants to You, only in connection with the Permitted Purpose, a worldwide, non-exclusive, royalty-free, irrevocable (except as stated in this paragraph) patent license to make, have made, use, sell, offer to sell, import, and otherwise transfer the Artifacts where such license applies only to those patent claims licensable by such Contributor that are necessarily infringed by their Contributions alone or by combination of their Contributions with the Artifact to which such Contribution was submitted. If You institute patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that an Artifact or Contribution constitutes direct or contributory patent infringement, then any patent licenses granted to You under this License in connection with the Artifact shall terminate as of the date such litigation is asserted or filed.
+4. Licensor and Contributor each have the right to grant the licenses above.
+5. The Data is not licensed under this License.
+
+III. CONDITIONS OF USAGE, DISTRIBUTION AND REDISTRIBUTION
+1. Use-based restrictions. The restrictions set forth in Attachment A are mandatory Use-based restrictions. Therefore You may not Use any Artifact in violation of such restrictions. You may Use Artifacts only subject to this License. You shall require all of Your users who Use the Artifacts or Derivatives to comply with the terms of this paragraph and only Use the Artifacts and Derivatives for the Permitted Purpose.
+2. The Output You Generate. Except as set forth herein, Licensor claims no rights in the Output generated by You or Your users. You are accountable for the Output You generate and its subsequent uses. No use of the Output may contravene any provision as stated in this License.
+3. Distribution and Redistribution. You may host for Third Party remote access purposes (e.g. software-as-a-service), reproduce, distribute, and make available Artifacts and Derivatives in any medium, with or without modifications, provided that You meet the following conditions:
+(a) Use-based restrictions in Paragraph III.1 MUST be included as a condition precedent to effect any type of legal agreement (e.g., a license) governing the Use of the Artifacts and Derivatives, and You shall give such notice to any subsequent Third Party recipients.
+(b) You shall give any Third Party recipients of any Artifacts or Derivatives a copy of this License.
+(c) You shall cause any modified files to carry prominent notices stating that You changed the files.
+(d) You shall retain all copyright, patent, trademark, and attribution notices excluding those notices that do not pertain to any part of the Artifacts or Derivatives.
+(e) You and any Third Party recipients of any Artifacts or Derivatives shall adhere to the Permitted Purpose.
+4. You may add Your own copyright statement to Your modifications and may provide additional or different license terms and conditions with respect to Paragraph III.3(a), to govern the Use or Distribution of Your modifications, or for any Derivative, provided that Your Use and Distribution of the Artifacts or their Derivatives otherwise complies with the conditions stated in this License. In other words, the Use-based restrictions referred to in Paragraph III.1 form the minimum set of terms for You to license to Third Parties any Artifacts or Derivatives, but You may add more restrictive terms if You deem it necessary.
+
+IV. OTHER PROVISIONS
+1. Updates and Runtime Restrictions. To the maximum extent permitted by law, Licensor reserves the right to restrict (remotely or otherwise) usage of Artifacts in violation of this License or update Artifacts through electronic means.
+2. Trademarks. Nothing in this License permits You to make use of Licensor’s trademarks, trade names, logos or to otherwise suggest endorsement or misrepresent the relationship between You and Licensor; and any rights not expressly granted herein are reserved by the Licensor.
+3. DISCLAIMER OF WARRANTY. UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING, LICENSOR PROVIDES THE ARTIFACT (AND EACH CONTRIBUTOR PROVIDES ITS CONTRIBUTIONS) ON AN “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, WITHOUT LIMITATION, ANY WARRANTIES OR CONDITIONS OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY, OR FITNESS FOR A PARTICULAR PURPOSE. YOU ARE SOLELY RESPONSIBLE FOR DETERMINING THE APPROPRIATENESS OF USING THE ARTIFACT, AND ASSUME ANY RISKS ASSOCIATED WITH YOUR EXERCISE OF PERMISSIONS UNDER THIS LICENSE.
+4. LIMITATION OF LIABILITY. IN NO EVENT AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING NEGLIGENCE), CONTRACT, OR OTHERWISE, UNLESS REQUIRED BY APPLICABLE LAW (SUCH AS DELIBERATE AND GROSSLY NEGLIGENT ACTS) OR AGREED TO IN WRITING, SHALL ANY CONTRIBUTOR BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF ANY CHARACTER ARISING AS A RESULT OF THIS LICENSE OR OUT OF THE USE OR INABILITY TO USE THE ARTIFACT (INCLUDING BUT NOT LIMITED TO DAMAGES FOR LOSS OF GOODWILL, WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER COMMERCIAL DAMAGES OR LOSSES), EVEN IF SUCH CONTRIBUTOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+5. Severability. If any provision of this License is held to be invalid, illegal or unenforceable, the remaining provisions shall be unaffected thereby and remain valid as if such provision had not been set forth herein.
+6. Term and Termination. The term of this License will commence upon the earlier of (a) Your acceptance of this License or (b) accessing the Artifact; and will continue in full force and effect until terminated in accordance with the terms and conditions herein. Licensor may terminate this License if You are in breach of any term or condition of this Agreement. Upon termination of this Agreement, You shall delete and cease use of the Artifacts. This paragraph shall survive the termination of this License.
+
+Attachment A – Use Restrictions
+1. Discrimination. You agree not to Use, or allow others to Use, Artifacts or Derivatives
+(a) to discriminate, mock, or promote hatred against individuals or groups, or encourage others to do so directly or indirectly, on the basis of their age; race, perceived race, or ethnicity; national origin; sexual orientation; gender, gender identity, or gender expression; religion or religious affiliation or beliefs; disability status including diseases, bodily conditions, disfigurement, mobility issues, and mental impairment; veteran status; caste; or familial status.
+(b) to exploit any of the vulnerabilities of an individual or specific group of persons based on their age, social, physical, or mental characteristics, in order to materially distort the behavior of a person pertaining to that group in a manner that causes or is likely to cause that person or another person physical or psychological harm.
+(c) to engage in, promote, incite, or facilitate discrimination or other unlawful or harmful conduct in the provision of employment, employment benefits, credit, housing, or other essential goods and services.
+2. Intellectual Property. You agree not to, and not to allow others to Use Artifacts or Derivatives 
+(a) to infringe or attempt to infringe, misappropriate or otherwise violate any intellectual property rights of Licensor or any Third Party; 
+(b) synthesize or modify a natural person’s appearance, voice, or other individual characteristics, unless prior informed consent of said natural person is obtained; or
+(c) to reverse engineer, disassemble, decompile, or otherwise attempt to derive or gain access to Data that was used to create, train, pretrain, or otherwise evaluate such Artifacts or Derivatives.
+3. Legal. You agree not to Use, or allow others to Use, Artifacts or Derivatives
+(a) in any way that violates any applicable national, federal, state, local or international law or regulation;
+(b) to engage in, facilitate, or assist in the planning or development of criminal activities; or
+(c) to generate unlawful content.
+4. Disinformation. You agree not to Use, or allow others to Use, Artifacts or Derivatives
+(a) to create, present or disseminate false or misleading information for economic gain or to intentionally deceive the public, including creating false impersonations of natural persons;
+(b) to defame or harm a person’s reputation, such as by generating, creating, promoting, or spreading defamatory content.
+5. Privacy. You agree not to Use, or allow others to Use, Artifacts or Derivatives
+(a) to engage in, promote, incite, or facilitate the harassment, abuse, threatening or bullying of individuals or groups of individuals; or
+(b) in connection with personal information to infer additional personal       information about a natural person, including but not limited to legally protected characteristics, vulnerabilities or categories; unless informed consent from the data subject to collect said inferred personal information for a stated purpose and defined duration is received.
+6. Health and Safety. You agree not to Use, or allow others to Use, Artifacts or Derivatives
+(a) to provide health or medical advice, medical results interpretation, or make clinical decisions; or
+(b) in connection with any activities that present a risk of death or bodily harm to individuals, including self-harm or harm to others, or in connection with regulated or controlled substances.
+7. Military or Law Enforcement. You agree not to Use, or allow others to Use, Artifacts or Derivatives 
+(a) for purposes of administration of justice, law enforcement, immigration, or asylum processes, such as predicting that a natural person will commit a crime or the likelihood thereof;
+(b) for weaponry or warfare; for building or optimizing weapons; or in service of nuclear proliferation or nuclear weapons technology; or
+(c) military surveillance, including any research or development relating to military surveillance.
+8. General. You agree not to Use, or allow others to Use, Artifacts or Derivatives 
+(a) in any manner that would constitute high risk, restricted, or prohibited of AI under applicable law; or
+(b) to generate or disseminate malware or ransomware or to otherwise harm electronic systems.

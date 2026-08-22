@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "block3d"
+version = "0.1.0"
+requires-python = ">=3.10"
+description = "Anonymous supplementary implementation of Block3D."
+keywords = ["3d-generation", "block-diffusion"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3.10",
+]
+dependencies = [
+    "numpy",
+    "torch>=2.2.2",
+    "tqdm",
+    "transformers",
+    "safetensors",
+    "omegaconf",
+    "warp-lang",
+    "accelerate>=0.26.0",
+    "scikit-image",
+    "trimesh",
+    "scipy",
+    "pillow",
+    "tensorboard"
+]
+[project.optional-dependencies]
+meshlab = ["pymeshlab"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["block3d*"]
+namespaces = true
+
+[tool.setuptools.package-data]
+block3d = ["configs/*.yaml"]

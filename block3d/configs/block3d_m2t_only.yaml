@@ -1,0 +1,59 @@
+gpt_model:
+  n_layer: 23
+  n_single_layer: 1
+  rope_theta: 10000
+  generation_mode: block_diffusion
+  block_size: 64
+  mask_token_id: -1
+  use_single_blocks_in_diffusion: false
+  use_block_diffusion_prefix_cache: true
+  n_head: 12
+  n_embd: 1536
+  bias: true
+  eps: 1.e-6
+  shape_model_vocab_size: 16384
+  text_model_embed_dim: 768
+  use_pooled_text_embed: false
+  shape_model_embed_dim: 32
+  encoder_with_cls_token: true
+  use_bbox: true
+
+shape_model:
+  encoder_with_cls_token: true
+  num_encoder_latents: 1024
+  num_decoder_latents: 0
+  embed_dim: 32
+  width: 768
+  num_heads: 12
+  out_dim: 1
+  eps: 1.e-6
+  num_freqs: 128
+  point_feats: 3
+  embed_point_feats: false
+  num_encoder_layers: 13
+  encoder_cross_attention_levels: [0, 2, 4, 8]
+  num_decoder_layers: 24
+  num_codes: 16384
+
+text_model_pretrained_model_name_or_path: model_weights/clip-vit-large-patch14
+
+block_diffusion:
+  guidance_scale: 3.0
+  sampling_strategy: block3d
+  training_strategy: block3d
+  enable_t2t: false
+  cfg_dropout_prob: 0.1
+  train_t_min: 0.45
+  train_t_max: 0.95
+  num_diffusion_steps: 4
+  m2t_threshold: 0.95
+  t2t_threshold: 0.9
+  t2t_training_ratio: 0.0
+  mtf_rollout_steps: 0
+  grad_accum_steps: 1
+  warmup_steps: 100
+  min_lr_ratio: 1.0
+  ema_decay: 0.0
+  save_model_only_interval: 5000
+  save_full_state_interval: 0
+  val_interval: 500
