@@ -74,28 +74,6 @@ python -m pip install -e .
 loaded directly by `trimesh`. PyTorch3D is required by the eight-view CLIPScore
 evaluation command.
 
-## Model Zoo
-
-Block3D is initialized from the released Cube v0.5 checkpoint. Checkpoints are
-not redistributed in this repository; download them from the
-[Cube v0.5 model release](https://huggingface.co/Roblox/cube3d-v0.5) and place
-the files under `model_weights/`.
-
-| Model artifact | Download |
-| --- | --- |
-| Cube v0.5 shape GPT initialization | [shape_gpt.safetensors](https://huggingface.co/Roblox/cube3d-v0.5/resolve/main/shape_gpt.safetensors) |
-| Cube v0.5 shape tokenizer and decoder | [shape_tokenizer.safetensors](https://huggingface.co/Roblox/cube3d-v0.5/resolve/main/shape_tokenizer.safetensors) |
-| CLIP ViT-L/14 text encoder | [Hugging Face Transformers](https://huggingface.co/openai/clip-vit-large-patch14) |
-
-Expected local layout:
-
-```text
-model_weights/
-  shape_gpt.safetensors
-  shape_tokenizer.safetensors
-  clip-vit-large-patch14/
-```
-
 ## Datasets
 
 Training uses the TRELLIS-500K paired text-mesh data. Data are not included.
