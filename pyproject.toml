@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "block3d"
 version = "0.1.0"
 requires-python = ">=3.10"
-description = "Anonymous supplementary implementation of Block3D."
+description = "Official implementation of Block3D: Efficient Text-to-3D Generation via Block-Wise Diffusion."
 keywords = ["3d-generation", "block-diffusion"]
 classifiers = [
     "Development Status :: 3 - Alpha",
