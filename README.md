@@ -27,7 +27,7 @@
 
 <p align="center">
   <a href="https://alexandertsui.github.io/block3d/">
-    <img src="https://alexandertsui.github.io/block3d/assets/images/qualitative_main.jpg" alt="Block3D teaser" width="100%">
+    <img src="https://alexandertsui.github.io/block3d/assets/images/concept.png" alt="Block3D conceptual comparison" width="100%">
   </a>
 </p>
 
