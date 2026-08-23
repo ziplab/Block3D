@@ -21,7 +21,6 @@
     ·
     <a href="https://bohanzhuang.github.io">Bohan Zhuang</a>
   </p>
-  <h3 align="center">AAAI 2027</h3>
   <h3 align="center"><a href="https://arxiv.org/abs/2608.19567">Paper</a> | <a href="https://alexandertsui.github.io/block3d/">Project Page</a> | <a href="https://github.com/ziplab/Block3D">Code</a></h3>
   <div align="center"></div>
 </p>

@@ -1,1 +1,1 @@
-"""Block3D supplementary implementation."""
+"""Block3D implementation."""

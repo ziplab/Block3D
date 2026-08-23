@@ -98,7 +98,7 @@ class Engine:
         self.generation_mode = getattr(self.gpt_model.cfg, "generation_mode", "block_diffusion")
         if self.generation_mode != "block_diffusion":
             raise ValueError(
-                "This supplementary engine only supports generation_mode='block_diffusion'."
+                "This engine only supports generation_mode='block_diffusion'."
             )
         self.block_size = getattr(self.gpt_model.cfg, "block_size", 1)
         self.mask_token_id = self.gpt_model.shape_mask_id

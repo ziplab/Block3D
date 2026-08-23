@@ -840,7 +840,7 @@ def render_multiview_images(
                 if render_fn is None:
                     raise RuntimeError(
                         "The blender backend requires an explicit render_fn in this "
-                        "supplementary package."
+                        "Block3D package."
                     )
                 actual_render_fn = render_fn
                 image_paths = actual_render_fn(
