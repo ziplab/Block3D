@@ -1,7 +1,7 @@
 <p align="center">
   <h1 align="center">Block3D: Efficient Text-to-3D Generation via Block-Wise Diffusion</h1>
   <p align="center">
-    Bowen Cui<sup>†</sup>
+    <a href="https://alexandertsui.github.io/">Bowen Cui<sup>†</sup></a>
     ·
     <a href="https://lhmd.top">Weijie Wang<sup>†,*</sup></a>
     ·
