@@ -90,7 +90,7 @@ data/trellis500k_train/
 
 Each pair record contains `shape_ids`, `bbox_xyz`, `text_input_ids`, and
 `text_attention_mask`. The fixed 100-object evaluation definition is included
-as `random100_evaluation_manifest.jsonl`.
+as `benchmark_manifest.jsonl`.
 
 ## Training
 
@@ -103,7 +103,7 @@ evaluation set:
 python scripts/prepare_block_diffusion_eval_split.py \
   --dataset-root data/trellis500k_train \
   --source-manifest-path data/trellis500k_train/source_manifest.jsonl \
-  --eval-manifest-path random100_evaluation_manifest.jsonl \
+  --eval-manifest-path benchmark_manifest.jsonl \
   --output-dir data/splits \
   --train-count 300000 \
   --val-ratio 0 \
