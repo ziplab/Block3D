@@ -7,13 +7,13 @@
     ·
     <a href="https://steve-zeyu-zhang.github.io">Zeyu Zhang</a>
     ·
-    Yefei He
+    <a href="http://hexy.tech/">Yefei He</a>
     ·
-    Mingda Lin
+    <a href="https://openreview.net/profile?id=%7EMingda_Lin1">Mingda Lin</a>
     ·
-    Haoyu Zhao
+    <a href="https://zhao-haoyu.github.io/">Haoyu Zhao</a>
     ·
-    Yuanyu He
+    <a href="https://github.com/Yuanyu0">Yuanyu He</a>
     ·
     <a href="https://donydchen.github.io">Donny Y. Chen</a>
     ·
