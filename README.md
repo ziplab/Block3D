@@ -17,7 +17,7 @@
     ·
     <a href="https://donydchen.github.io">Donny Y. Chen</a>
     ·
-    Feng Chen<sup>*</sup>
+    <a href="https://chenfeng1271.github.io/">Feng Chen<sup>*</sup></a>
     ·
     <a href="https://bohanzhuang.github.io">Bohan Zhuang</a>
   </p>
